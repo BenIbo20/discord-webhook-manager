@@ -1,0 +1,29 @@
+{
+  "name": "discord-webhook-manager",
+  "version": "1.0.0",
+  "description": "Discord sunucularındaki webhookları merkezi olarak yönetmek için geliştirilen bağımsız bir Discord botu.",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js",
+    "deploy": "node scripts/deploy-commands.js",
+    "test": "node tests/test-suite.js"
+  },
+  "keywords": [
+    "discord",
+    "discord-bot",
+    "webhook",
+    "discordjs",
+    "components-v2",
+    "javascript"
+  ],
+  "author": "BenIbo20",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.19.3",
+    "dotenv": "^16.4.7"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
